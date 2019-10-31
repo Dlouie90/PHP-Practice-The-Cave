@@ -6,7 +6,7 @@ include('includes/header.php');
 
 <div id="contact">
 	<hr>
-	<h1>Get in touch with us!</h1>
+	<h1 class="text-center">Want to contact us? You can!</h1>
 
 	<?php
 
@@ -75,8 +75,8 @@ include('includes/header.php');
 			<textarea id="message" name="message"></textarea>
 			<br>
 			<input type="checkbox" id="subscribe" value="Subscribe" name="subscribe"> <label for="subscribe">Subscribe to newsletter</label>
-
-			<input type="submit" class="button next" name="contact_submit" value="Send Message">
+			<br>
+			<input type="submit" class="btn btn-primary mt-3" name="contact_submit" value="Send Message">
 		</form>
 
 	<?php

@@ -68,14 +68,6 @@ ul li, ol li {
 	margin: 0 0 15px;
 }
 
-hr {
-	border: none;
-	height: 18px;
-	width: 114px;
-	background: url('/CodeDynamicWebsites/assets/img/hr.png') center center no-repeat;
-	margin: 20px auto;
-}
-
 small {
 	font-size: 12px;
 }
@@ -276,7 +268,7 @@ input.button.next {
 }
 
 #final-example .wrapper {
-	width: 1000px;
+	width: 1200px;
 	padding: 0;
 }
 
@@ -303,21 +295,16 @@ input.button.next {
 
 #final-example #nav ul li a {
 	display: block;
-	background: #353535;
-	outline: solid 2px #353535;
-	border: solid 2px white;
-	color: white;
 	padding: 10px 15px;
 	text-decoration: none;
+	font-weight: 700;
 }
 
-#final-example #nav ul li a:hover {
-	background: #1b2cc2;
-	outline: solid 2px #1b2cc2;
+#final-example #nav ul li a:hover, #final-example #nav ul li a:active {
+	background: grey;
 }
 
 #final-example #philosophy {
-	text-align: center;
 	font-size: 18px;
 	line-height: 22px;
 }

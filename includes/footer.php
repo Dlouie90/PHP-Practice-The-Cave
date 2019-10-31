@@ -1,4 +1,4 @@
-<div id="footer" class="cf">
+<div id="footer" class="cf d-flex flex-row flex-wrap justify-content-around">
 
     <div class="column three">
         <strong>Phone</strong>
